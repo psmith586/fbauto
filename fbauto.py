@@ -5,7 +5,7 @@ em = input('email: ')
 pw = input('password: ')
 
 driver = webdriver.Firefox()
-driver.get('https://facebook.com')
+driver.get('https://www.facebook.com')
 e = driver.find_element_by_id('email')
 e.send_keys(em)
 p = driver.find_element_by_id('pass')
